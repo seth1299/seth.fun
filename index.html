@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Simulator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="budget-simulator">
+        <h2>Budget Simulator</h2>
+        <div class="input-section">
+            <label for="education">Education: </label>
+            <input type="range" id="education" min="0" max="100" value="20">
+            <span id="education-value">20%</span>
+        </div>
+        <!-- Repeat similar sections for other budget categories -->
+        <div class="chart-container">
+            <canvas id="budgetChart"></canvas>
+        </div>
+        <button id="reset-button">Reset</button>
+        <button id="save-button">Save Budget</button>
+    </div>
+    <script src="lib/chart.min.js"></script>
+    <script src="js/chart-setup.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

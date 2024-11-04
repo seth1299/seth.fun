@@ -1,0 +1,31 @@
+.budget-simulator {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+}
+.input-section {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.input-section label {
+    flex: 1;
+}
+.input-section input {
+    flex: 2;
+    margin-left: 10px;
+}
+.input-section span {
+    margin-left: 10px;
+}
+.chart-container {
+    margin-top: 20px;
+    height: 400px;
+}
+button {
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
