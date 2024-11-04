@@ -23,6 +23,10 @@
     margin-top: 20px;
     height: 400px;
 }
+.total-budget {
+    margin-top: 15px;
+    font-size: 18px;
+}
 button {
     margin-top: 20px;
     margin-right: 10px;

@@ -14,13 +14,22 @@
             <input type="range" id="education" min="0" max="100" value="20">
             <span id="education-value">20%</span>
         </div>
-        <!-- Repeat similar sections for other budget categories -->
+        <div class="input-section">
+            <label for="healthcare">Healthcare: </label>
+            <input type="range" id="healthcare" min="0" max="100" value="30">
+            <span id="healthcare-value">30%</span>
+        </div>
+        <!-- Repeat for other budget categories -->
         <div class="chart-container">
             <canvas id="budgetChart"></canvas>
+        </div>
+        <div class="total-budget">
+            Total Budget: <span id="total-budget">50%</span> / 100%
         </div>
         <button id="reset-button">Reset</button>
         <button id="save-button">Save Budget</button>
     </div>
+    
     <script src="lib/chart.min.js"></script>
     <script src="js/chart-setup.js"></script>
     <script src="js/main.js"></script>
